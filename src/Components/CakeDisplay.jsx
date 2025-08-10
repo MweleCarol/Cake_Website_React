@@ -13,7 +13,7 @@ const FoodDisplay = ({ category }) => {
     <section className="w-full bg-white px-4 sm:px-6 lg:px-8 py-12 lg:py-16">
       <div className="max-w-7xl mx-auto">
         {/* Title Section - Matching ExploreMenu style */}
-        <div className="mb-10 lg:mb-14">
+        <div className="mb-10 lg:mb-5">
           <Title
             title={category === "All" ? "Our Signature Desserts" : `${category.replace(/_/g, ' ')} Collection`}
             subtitle="Indulge in our carefully crafted selection of desserts, each made with premium ingredients and artistic presentation. Every bite promises a moment of pure delight."

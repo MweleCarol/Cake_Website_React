@@ -12,6 +12,7 @@ const Navbar = ({}) => {
       <div className="flex items-center gap-3 md:gap-4">
         <Link to="/">
           <img 
+            
             className="w-14 h-14 md:w-[75px] md:h-[75px] rounded-full object-cover cursor-pointer transition-transform duration-300 hover:scale-105" 
             src={logo} 
             alt="Cake Spot Logo" 
@@ -55,7 +56,7 @@ const Navbar = ({}) => {
 
       {/* Right Side Icons */}
       <div className="flex items-center gap-5 md:gap-6 lg:gap-8">
-        <Link to='/Cart' className="relative group">
+        <Link to='/cart' className="relative group">
           <img 
             src={basket_icon} 
             alt="Shopping Cart" 
@@ -72,7 +73,11 @@ const Navbar = ({}) => {
           rounded-full cursor-pointer transition-all duration-300 hover:bg-amber-50 hover:text-amber-700 hover:border-amber-600
           focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-opacity-50"
         >
-          Sign In
+          <Link
+          to='/login'>
+           Login
+          </Link>
+         
         </button>
       </div>
     </nav>

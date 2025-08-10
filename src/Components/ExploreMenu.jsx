@@ -7,7 +7,7 @@ const ExploreMenu = ({ category, setCategory }) => {
     <section className="w-full bg-white px-4 sm:px-6 lg:px-8 py-12 lg:py-16" id="explore-menu">
       <div className="max-w-7xl mx-auto">
         {/* Title Section */}
-        <div className="mb-10 lg:mb-14">
+        <div className="mb-10 lg:mb-8">
           <Title
             title="Explore Our Menu"
             subtitle="Choose from a diverse menu featuring mouth-watering desserts crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate your dining experience, one delicious treat at a time."
